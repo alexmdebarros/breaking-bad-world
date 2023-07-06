@@ -1,0 +1,49 @@
+@use 'variables';
+@use 'header';
+@use 'about';
+
+
+@font-face {
+    font-family: Heart Breaking Bad;
+    src: url(../assets/fonts/Heart\ Breaking\ Bad.otf);
+    font-weight: 400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: variables.$backgroundColor;
+}
+
+
+@mixin sectionTitle{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    color: variables.$lettersColor;
+    padding-bottom: 42px;
+    
+}
+
+@mixin descriptions{
+    font-family: 'Roboto', sans-serif;    
+    font-size: 16px;
+    color: variables.$lettersColor; 
+    font-weight: normal;   
+}
+
+.section--title{
+    @include sectionTitle;
+    
+}
+
+.section--descriptions{
+    @include descriptions;
+}
+
+
+
