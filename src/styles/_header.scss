@@ -7,6 +7,7 @@
     display: block;
     text-align: center;
     
+    
     &__image{
         width: 70%;        
     }
@@ -17,5 +18,37 @@
         font-weight: normal;
         color: variables.$lettersColor;
         padding-bottom: 36px;
+    }
+
+    &__nav{
+        background-color: variables.$menuColor;
+        border-radius: 5px;
+        
+
+        &__itens{
+            display: flex;
+            justify-content: space-between;
+            font-size: 36px;
+            margin: 56px;
+            padding: 12px;
+            
+
+            &__item{
+                
+
+                &__link{
+                    
+
+                }
+            }
+        }
+    }
+}
+
+.header__nav__link{
+    color: variables.$lettersColor;
+
+    &:hover{
+        color: variables.$hoverColorMenu;
     }
 }
