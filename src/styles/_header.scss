@@ -17,7 +17,7 @@
         font-size: 100px;
         font-weight: normal;
         color: variables.$lettersColor;
-        padding-bottom: 36px;
+        text-align: center;
     }
 
     &__nav{
@@ -27,28 +27,22 @@
 
         &__itens{
             display: flex;
-            justify-content: space-between;
-            font-size: 36px;
-            margin: 56px;
-            padding: 12px;
             
-
-            &__item{
-                
-
-                &__link{
-                    
-
-                }
-            }
+            font-size: 36px;            
+            padding: 12px;
+            justify-content: center;
         }
     }
 }
 
 .header__nav__link{
     color: variables.$lettersColor;
+    padding: 0 16px;
+    transition: ease .3s;
 
     &:hover{
         color: variables.$hoverColorMenu;
+        text-decoration: underline;
+        
     }
 }
