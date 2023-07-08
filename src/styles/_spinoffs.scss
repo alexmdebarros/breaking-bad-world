@@ -1,0 +1,14 @@
+.spin-offs__container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    .spin-offs__itens{
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        width: 500px;
+    }
+}
