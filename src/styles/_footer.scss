@@ -1,0 +1,19 @@
+@use 'variables';
+
+.footer__container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: variables.$menuColor;
+    text-align: center;
+    padding: 24px;
+    align-items: center;
+
+    .footer__p{
+        
+        color: variables.$lettersColor;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+}
