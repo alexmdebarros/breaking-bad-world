@@ -22,12 +22,10 @@
 
     &__nav{
         background-color: variables.$menuColor;
-        border-radius: 5px;
-        
+        border-radius: 5px;        
 
         &__itens{
-            display: flex;
-            
+            display: flex;            
             font-size: 36px;            
             padding: 12px;
             justify-content: center;
@@ -39,10 +37,10 @@
     color: variables.$lettersColor;
     padding: 0 16px;
     transition: ease .3s;
+    text-decoration: none;
 
     &:hover{
-        color: variables.$hoverColorMenu;
+        color: variables.$hoverColorMenu;       
         text-decoration: underline;
-        
     }
 }
