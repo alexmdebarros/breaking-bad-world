@@ -2,6 +2,7 @@
 @use 'header';
 @use 'about';
 @use 'caracters';
+@use 'curiosities';
 
 
 @font-face {
@@ -29,8 +30,16 @@ body{
     font-size: 42px;
     color: variables.$lettersColor;
     padding-bottom: 42px;
-    padding-top: 42px;
-    
+    padding-top: 42px;    
+}
+
+@mixin sectionSubtitle{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: variables.$lettersColor;
+    padding-bottom: 42px;
+    padding-top: 42px;    
 }
 
 @mixin descriptions{
@@ -43,6 +52,10 @@ body{
 .section--title{
     @include sectionTitle;
     
+}
+
+.section--subtitle{
+    @include sectionSubtitle;
 }
 
 .section--descriptions{

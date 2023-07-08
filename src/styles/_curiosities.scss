@@ -1,0 +1,23 @@
+@use 'variables';
+
+.curiosities__container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+.article__colors{
+    text-align: center;
+    
+    p{
+        text-align: justify;
+    }
+
+    img{
+        width: 800px;
+        margin-bottom: 42px;
+        
+    }
+}
