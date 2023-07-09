@@ -7,6 +7,10 @@
     width: 100%;
     margin: 0 auto;
 
+    @media (max-width: 768px){
+        width: 90%;
+    }
+
     button{        
         color: variables.$lettersColor;
         
@@ -22,17 +26,30 @@
 
     .tab-pane{
         display: flex;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         padding-top: 32px;
         align-items: flex-start;
 
+        @media (max-width: 768px){
+            display: block;
+        }
+
         p{
             margin: 0 24px;
+
+            @media (max-width: 768px){
+                width: 90%;
+                margin: 0 auto;
+            }
         }
 
         img{
             width: 400px;
+
+            @media (max-width: 768px){
+                width: 90%;
+            }
         }
     }
 }

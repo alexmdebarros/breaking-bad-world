@@ -5,8 +5,7 @@
     width: 100%;
     margin: 0 auto;
     display: block;
-    text-align: center;
-    
+    text-align: center;    
     
     &__image{
         width: 70%;        
@@ -18,19 +17,36 @@
         font-weight: normal;
         color: variables.$lettersColor;
         text-align: center;
+
+        @media (max-width: 768px) {
+            font-size: 40px;
+        }
     }
 
     &__nav{
         background-color: variables.$menuColor;
-        border-radius: 5px;        
+        border-radius: 5px; 
+        margin: 0 auto;   
+        
+        @media (max-width: 768px){
+            width: 90%;
+            
+        }
 
         &__itens{
             display: flex;            
             font-size: 36px;            
             padding: 12px;
             justify-content: center;
+
+            @media (max-width: 768px){
+                display: block;
+                font-size: 20px;
+            }
         }
     }
+
+    
 }
 
 .header__nav__link{
@@ -44,3 +60,4 @@
         text-decoration: underline;
     }
 }
+

@@ -1,23 +1,33 @@
 @use 'variables';
 
 
-.about{
+.about {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
-    
-    &__image{
-        width: 420px;
-        margin: 0 24px;
+
+    &__image {
+        width: 400px;
+        margin-right: 24px;
+
+        @media (max-width: 768px) {
+            width: 90%;
+            
+        }
+
     }
 
-    &__container{
+    &__container {
         display: flex;
-        align-items: center;
+
+
+        @media (max-width: 768px) {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 
-    
-    &__description{
-        margin-right: 24px;        
-    }
+
+
 }

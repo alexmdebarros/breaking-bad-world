@@ -5,6 +5,9 @@
     width: 100%;
     margin: 0 auto;
     
+    @media (max-width: 768px){
+        width: 90%;
+    }
 
 }
 
@@ -13,11 +16,20 @@
     
     p{
         text-align: justify;
+
+        @media (max-width: 768px){
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 
     img{
         width: 800px;
         margin-bottom: 42px;
         
+        @media (max-width: 768px){
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 }
