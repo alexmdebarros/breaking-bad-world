@@ -9,13 +9,19 @@
         width: 90%;
     }
 
+
 }
 
 .article__colors{
     text-align: center;
     
+    
     p{
-        text-align: justify;
+        text-align: left;
+
+        strong{
+            font-size: 14px;
+        }
 
         @media (max-width: 768px){
             width: 90%;

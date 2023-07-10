@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/main.css">
+    
     <title>Breaking Bad World</title>
 </head>
 
@@ -64,158 +64,204 @@
     </section>
     
     <section id="caracters">
+        <h2 class="caracters__title section--title">Personagens Favoritos</h2>
         <div class="caracters__container">
-            <h2 class="caracters__title section--title">Personagens Favoritos</h2>
-            <nav class="nav__caracters">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    
-                    <button class="nav-link active" id="nav-walter" data-bs-toggle="tab" data-bs-target="#walter"type="button">
-                        Walter White
-                    </button>
-
-                    <button class="nav-link" id="nav-jesse" data-bs-toggle="tab" data-bs-target="#jesse"type="button">
-                        Jesse Pinkman
-                    </button>
-
-                    <button class="nav-link" id="nav-skyler" data-bs-toggle="tab" data-bs-target="#skyler"type="button">
-                        Skyler White
-                    </button>
-
-                    <button class="nav-link" id="nav-saul" data-bs-toggle="tab" data-bs-target="#saul"type="button">
-                        Saul Goodman
-                    </button>
-
-                    <button class="nav-link" id="nav-hank" data-bs-toggle="tab" data-bs-target="#hank"type="button">
-                        Hank Schrader
-                    </button>
-
-                    <button class="nav-link" id="nav-gustavo" data-bs-toggle="tab" data-bs-target="#gustavo"type="button">
-                        Gustavo Fring
-                    </button>
-
-                    <button class="nav-link" id="nav-mike" data-bs-toggle="tab" data-bs-target="#mike"type="button">
-                        Mike Ehrmantraut
-                    </button>                    
-                </div>
+            
+            <nav class="nav nav-tabs">    
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#walter" type="button">
+                    Walter White
+                </button>
+    
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#jesse" type="button">
+                    Jesse Pinkman
+                </button>
+    
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#skyler" type="button">
+                    Skyler White
+                </button>
+    
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#saul" type="button">
+                    Saul Goodman
+                </button>
+    
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#hank" type="button">
+                    Hank Schrader
+                </button>
+    
+                <button class="nav-link" id="nav-gustavo" data-bs-toggle="tab" data-bs-target="#gustavo" type="button">
+                    Gustavo Fring
+                </button>
+    
+                <button class="nav-link" id="nav-mike" data-bs-toggle="tab" data-bs-target="#mike" type="button">
+                    Mike Ehrmantraut
+                </button>
+    
             </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show" id="walter">
+
+            <div class="tab-content ">
+                <div class="tab-pane fade active show" id="walter">
                     <img src="./src/images/section-caracters-walter-white.jpg" alt="Walter White">
                     <p class="section--descriptions">
-                        Walter White interpretado por Bryan Cranston, protagonista da série "Breaking Bad", é um professor de química com câncer 
-                        terminal que se envolve no tráfico de drogas para garantir um futuro financeiro para sua família. 
-                        Sua jornada o leva a buscar poder e controle, adotando a identidade de "Heisenberg". Ao longo da série, 
-                        testemunhamos sua transformação de homem comum em anti-herói manipulador. Walter abandona seus escrúpulos, 
-                        revelando uma determinação implacável para construir seu império das drogas. Sua brilhante capacidade química
-                         o torna um fabricante de metanfetamina altamente qualificado e temido. No entanto, sua busca incessante pelo 
-                         poder e sua crescente violência afetam sua relação com Jesse Pinkman, seu parceiro no crime. Walter White é 
-                         um personagem complexo, cuja história fascinante explora temas de moralidade, ambição e as consequências da 
-                         escolha. Sua jornada de personagem é uma das mais marcantes da televisão, deixando uma profunda impressão nos 
-                         espectadores.
+                        Walter White interpretado por Bryan Cranston, protagonista da série "Breaking Bad", é um professor
+                        de química com câncer
+                        terminal que se envolve no tráfico de drogas para garantir um futuro financeiro para sua família.
+                        Sua jornada o leva a buscar poder e controle, adotando a identidade de "Heisenberg". Ao longo da
+                        série,
+                        testemunhamos sua transformação de homem comum em anti-herói manipulador. Walter abandona seus
+                        escrúpulos,
+                        revelando uma determinação implacável para construir seu império das drogas. Sua brilhante
+                        capacidade química
+                        o torna um fabricante de metanfetamina altamente qualificado e temido. No entanto, sua busca
+                        incessante pelo
+                        poder e sua crescente violência afetam sua relação com Jesse Pinkman, seu parceiro no crime. Walter
+                        White é
+                        um personagem complexo, cuja história fascinante explora temas de moralidade, ambição e as
+                        consequências da
+                        escolha. Sua jornada de personagem é uma das mais marcantes da televisão, deixando uma profunda
+                        impressão nos
+                        espectadores.
                     </p>
                 </div>
                 <div class="tab-pane fade" id="jesse">
                     <img src="./src/images/section-caracters-jesse-pinkman.jpg" alt="Jesse Pinkman">
                     <p class="section--descriptions">
-                        Jesse Pinkman é um dos personagens centrais da série "Breaking Bad". Interpretado por Aaron Paul, 
-                        Jesse é um jovem traficante de drogas que se torna parceiro de Walter White na produção de metanfetamina.
-                        Jesse é apresentado como um rapaz problemático e desorientado, envolvido no tráfico de drogas há algum tempo. 
-                        Ele é o oposto de Walter em muitos aspectos: impulsivo, emocional e propenso a tomar decisões irracionais.
-                        Ao longo da série, Jesse passa por uma jornada de amadurecimento e busca por redenção. Ele se envolve em situações 
+                        Jesse Pinkman é um dos personagens centrais da série "Breaking Bad". Interpretado por Aaron Paul,
+                        Jesse é um jovem traficante de drogas que se torna parceiro de Walter White na produção de
+                        metanfetamina.
+                        Jesse é apresentado como um rapaz problemático e desorientado, envolvido no tráfico de drogas há
+                        algum tempo.
+                        Ele é o oposto de Walter em muitos aspectos: impulsivo, emocional e propenso a tomar decisões
+                        irracionais.
+                        Ao longo da série, Jesse passa por uma jornada de amadurecimento e busca por redenção. Ele se
+                        envolve em situações
                         perigosas e violentas, enfrentando dilemas éticos e emocionais.
-                        A relação entre Jesse e Walter é complexa, alternando entre parceria e conflito. Enquanto Walter é manipulador e frio, 
-                        Jesse é movido por emoções e lealdade. Sua busca por identidade e propósito o coloca em constantes desafios morais.
-                        Jesse Pinkman é um personagem que desperta empatia e simpatia no público, à medida que enfrenta suas próprias lutas 
-                        internas e tenta se libertar do ciclo de destruição causado pelas drogas. Sua evolução ao longo da série é uma parte 
+                        A relação entre Jesse e Walter é complexa, alternando entre parceria e conflito. Enquanto Walter é
+                        manipulador e frio,
+                        Jesse é movido por emoções e lealdade. Sua busca por identidade e propósito o coloca em constantes
+                        desafios morais.
+                        Jesse Pinkman é um personagem que desperta empatia e simpatia no público, à medida que enfrenta suas
+                        próprias lutas
+                        internas e tenta se libertar do ciclo de destruição causado pelas drogas. Sua evolução ao longo da
+                        série é uma parte
                         fundamental da narrativa, tornando-o um personagem memorável e complexo.
                     </p>
                 </div>
                 <div class="tab-pane fade" id="skyler">
                     <img src="./src/images/sectiom-caracters-skyler-white.jpg" alt="Skyler White">
                     <p class="section--descriptions">
-                        Interpretada por Anna Gunn, Skyler é a esposa de Walter White e desempenha um papel crucial na trama. 
-                        No início da série, ela é retratada como uma esposa dedicada e mãe de dois filhos, enfrentando as dificuldades 
+                        Interpretada por Anna Gunn, Skyler é a esposa de Walter White e desempenha um papel crucial na
+                        trama.
+                        No início da série, ela é retratada como uma esposa dedicada e mãe de dois filhos, enfrentando as
+                        dificuldades
                         financeiras da família.
-                        À medida que a história se desenrola, Skyler descobre as atividades criminosas de seu marido e se vê envolvida 
-                        em um mundo perigoso e ilegal. Ela passa por uma jornada de descoberta e enfrenta dilemas éticos complexos, 
+                        À medida que a história se desenrola, Skyler descobre as atividades criminosas de seu marido e se vê
+                        envolvida
+                        em um mundo perigoso e ilegal. Ela passa por uma jornada de descoberta e enfrenta dilemas éticos
+                        complexos,
                         tentando proteger sua família enquanto lida com as consequências das escolhas de Walter.
-                        Skyler é uma personagem controversa, muitas vezes despertando opiniões divididas nos fãs da série. 
-                        Sua transformação ao longo da trama mostra sua resiliência e habilidade de adaptação diante das circunstâncias 
+                        Skyler é uma personagem controversa, muitas vezes despertando opiniões divididas nos fãs da série.
+                        Sua transformação ao longo da trama mostra sua resiliência e habilidade de adaptação diante das
+                        circunstâncias
                         extremas.
-                        A personagem de Skyler White é uma representação realista de uma mulher em um contexto desafiador, 
-                        demonstrando força e determinação para enfrentar os obstáculos que surgem em sua vida. Sua presença na série 
+                        A personagem de Skyler White é uma representação realista de uma mulher em um contexto desafiador,
+                        demonstrando força e determinação para enfrentar os obstáculos que surgem em sua vida. Sua presença
+                        na série
                         adiciona profundidade emocional e complexidade à narrativa de "Breaking Bad".
                     </p>
                 </div>
                 <div class="tab-pane fade" id="saul">
                     <img src="./src/images/sectiom-caracters-saul-goodman.jpg" alt="Saul Goodman">
                     <p class="section--descriptions">
-                        Saul Goodman, interpretado brilhantemente por Bob Odenkirk, é um dos personagens mais marcantes 
-                        da aclamada série "Breaking Bad". Como advogado criminal, Saul é conhecido por seu comportamento 
-                        extravagante, estilo de vida duvidoso e moral flexível. Saul se torna um aliado crucial para Walter 
-                        White e Jesse Pinkman em sua jornada pelo mundo do tráfico de drogas. Com sua astúcia e habilidades 
-                        legais questionáveis, ele oferece conselhos jurídicos e soluções criativas para ajudar a resolver os 
-                        problemas legais de seus clientes. Sua presença na série adiciona um elemento único de humor, sarcasmo 
-                        e imprevisibilidade. Saul é capaz de encontrar brechas no sistema legal e lidar com situações perigosas 
-                        de forma criativa e desafiadora. Além de sua persona excêntrica, Saul Goodman é um personagem complexo 
-                        que oscila entre o cinismo e a vulnerabilidade. Ele representa a face sombria e corrupta do sistema legal, 
-                        desafiando os limites da ética em nome de seus interesses. A interpretação magnética de Bob Odenkirk dá vida 
+                        Saul Goodman, interpretado brilhantemente por Bob Odenkirk, é um dos personagens mais marcantes
+                        da aclamada série "Breaking Bad". Como advogado criminal, Saul é conhecido por seu comportamento
+                        extravagante, estilo de vida duvidoso e moral flexível. Saul se torna um aliado crucial para Walter
+                        White e Jesse Pinkman em sua jornada pelo mundo do tráfico de drogas. Com sua astúcia e habilidades
+                        legais questionáveis, ele oferece conselhos jurídicos e soluções criativas para ajudar a resolver os
+                        problemas legais de seus clientes. Sua presença na série adiciona um elemento único de humor,
+                        sarcasmo
+                        e imprevisibilidade. Saul é capaz de encontrar brechas no sistema legal e lidar com situações
+                        perigosas
+                        de forma criativa e desafiadora. Além de sua persona excêntrica, Saul Goodman é um personagem
+                        complexo
+                        que oscila entre o cinismo e a vulnerabilidade. Ele representa a face sombria e corrupta do sistema
+                        legal,
+                        desafiando os limites da ética em nome de seus interesses. A interpretação magnética de Bob Odenkirk
+                        dá vida
                         a Saul Goodman, tornando-o um dos personagens mais icônicos e amados da série "Breaking Bad".
                     </p>
                 </div>
                 <div class="tab-pane fade" id="hank">
                     <img src="./src/images/sectiom-caracters-hank.jpg" alt="Hank Schrader">
                     <p class="section--descriptions">
-                        Hank Schrader, interpretado com maestria por Dean Norris, é um personagem inesquecível da série. 
-                        Como agente da DEA, a agência antidrogas dos Estados Unidos, Hank é retratado como um homem corajoso 
+                        Hank Schrader, interpretado com maestria por Dean Norris, é um personagem inesquecível da série.
+                        Como agente da DEA, a agência antidrogas dos Estados Unidos, Hank é retratado como um homem corajoso
                         e obstinado na busca incansável por combater o tráfico de drogas.
-                        Hank se torna um dos principais obstáculos na vida de Walter White, sem saber que seu cunhado é o 
-                        infame traficante "Heisenberg" que tanto procura. Sua obsessão em capturar Heisenberg o leva a desvendar 
+                        Hank se torna um dos principais obstáculos na vida de Walter White, sem saber que seu cunhado é o
+                        infame traficante "Heisenberg" que tanto procura. Sua obsessão em capturar Heisenberg o leva a
+                        desvendar
                         pistas e enfrentar situações perigosas, colocando sua vida em risco.
-                        A jornada de Hank é marcada por sua coragem e determinação, mas também por suas vulnerabilidades e 
-                        desafios pessoais. Ao descobrir a verdade sobre Walter e Jesse, ele se vê em um turbilhão de emoções 
+                        A jornada de Hank é marcada por sua coragem e determinação, mas também por suas vulnerabilidades e
+                        desafios pessoais. Ao descobrir a verdade sobre Walter e Jesse, ele se vê em um turbilhão de emoções
                         conflitantes, confrontando suas convicções e lealdade familiar.
-                        A interpretação intensa de Dean Norris traz profundidade e autenticidade ao personagem de Hank Schrader, 
-                        tornando-o um dos personagens mais memoráveis e complexos da série. Sua presença marcante e as reviravoltas 
+                        A interpretação intensa de Dean Norris traz profundidade e autenticidade ao personagem de Hank
+                        Schrader,
+                        tornando-o um dos personagens mais memoráveis e complexos da série. Sua presença marcante e as
+                        reviravoltas
                         em sua história contribuem para a tensão e o suspense que permeiam "Breaking Bad".
                     </p>
                 </div>
                 <div class="tab-pane fade" id="gustavo">
                     <img src="./src/images/section-caracters-gustavo.jpg" alt="Gustavo Fring">
                     <p class="section--descriptions">
-                        Gustavo Fring, interpretado brilhantemente por Giancarlo Esposito, é um dos personagens icônicos da série. 
-                        Fring é um empresário de sucesso que possui uma cadeia de fast-food chamada "Los Pollos Hermanos", que serve 
+                        Gustavo Fring, interpretado brilhantemente por Giancarlo Esposito, é um dos personagens icônicos da
+                        série.
+                        Fring é um empresário de sucesso que possui uma cadeia de fast-food chamada "Los Pollos Hermanos",
+                        que serve
                         como fachada para suas operações de tráfico de drogas.
-                        Gustavo Fring é conhecido por sua personalidade calma e controlada, escondendo sua verdadeira natureza 
+                        Gustavo Fring é conhecido por sua personalidade calma e controlada, escondendo sua verdadeira
+                        natureza
                         implacável e perigosa. Ele é um dos traficantes mais poderosos e temidos do mundo das drogas.
-                        Fring estabelece uma relação complexa com Walter White e Jesse Pinkman, sendo uma fonte de conflito e 
-                        manipulação. Sua habilidade em esconder suas verdadeiras intenções e sua sede de vingança o tornam um 
+                        Fring estabelece uma relação complexa com Walter White e Jesse Pinkman, sendo uma fonte de conflito
+                        e
+                        manipulação. Sua habilidade em esconder suas verdadeiras intenções e sua sede de vingança o tornam
+                        um
                         antagonista formidável.
-                        A interpretação magistral de Giancarlo Esposito traz um equilíbrio perfeito entre elegância e ameaça ao 
-                        personagem de Gustavo Fring. Sua presença enigmática e suas habilidades estratégicas adicionam uma camada 
-                        de suspense e tensão à trama, tornando-o um dos personagens mais memoráveis e cativantes de "Breaking Bad".
+                        A interpretação magistral de Giancarlo Esposito traz um equilíbrio perfeito entre elegância e ameaça
+                        ao
+                        personagem de Gustavo Fring. Sua presença enigmática e suas habilidades estratégicas adicionam uma
+                        camada
+                        de suspense e tensão à trama, tornando-o um dos personagens mais memoráveis e cativantes de
+                        "Breaking Bad".
                     </p>
                 </div>
                 <div class="tab-pane fade" id="mike">
                     <img src="./src/images/section-caracters-mike.jpg" alt="mike ehrmantraut">
                     <p class="section--descriptions">
-                        Mike Ehrmantraut, interpretado por Jonathan Banks, é um ex-policial e assassino de aluguel, conhecido por 
+                        Mike Ehrmantraut, interpretado por Jonathan Banks, é um ex-policial e assassino de aluguel,
+                        conhecido por
                         sua frieza e eficiência.
-                        Mike atua como um aliado e executor de tarefas para Gus Fring, sendo peça-chave em suas operações no mundo 
-                        do tráfico de drogas. Sua experiência como policial e sua habilidade em resolver problemas o tornam um recurso 
+                        Mike atua como um aliado e executor de tarefas para Gus Fring, sendo peça-chave em suas operações no
+                        mundo
+                        do tráfico de drogas. Sua experiência como policial e sua habilidade em resolver problemas o tornam
+                        um recurso
                         valioso para Gus e, posteriormente, para Walter White.
-                        Apesar de sua natureza reservada e pouco expressiva, Mike desenvolve um vínculo especial com Jesse Pinkman, 
-                        atuando como um mentor relutante para o jovem traficante. Sua ética moral questionável e seu pragmatismo o 
+                        Apesar de sua natureza reservada e pouco expressiva, Mike desenvolve um vínculo especial com Jesse
+                        Pinkman,
+                        atuando como um mentor relutante para o jovem traficante. Sua ética moral questionável e seu
+                        pragmatismo o
                         tornam um personagem complexo.
-                        Jonathan Banks entrega uma atuação impecável, transmitindo a essência sombria e implacável de Mike Ehrmantraut. 
-                        Sua presença na série adiciona um ar de seriedade e profissionalismo, complementando perfeitamente o universo de 
-                        "Breaking Bad". Mike é um personagem cujas ações e decisões impactam significativamente a trama, deixando uma marca 
+                        Jonathan Banks entrega uma atuação impecável, transmitindo a essência sombria e implacável de Mike
+                        Ehrmantraut.
+                        Sua presença na série adiciona um ar de seriedade e profissionalismo, complementando perfeitamente o
+                        universo de
+                        "Breaking Bad". Mike é um personagem cujas ações e decisões impactam significativamente a trama,
+                        deixando uma marca
                         indelével na narrativa da série.
                     </p>
                 </div>
             </div>
         </div>
-
+    
     </section>
 
     <section class="curiosities" id="curiosities">
@@ -230,32 +276,33 @@
                         A teoria das cores desempenha um papel fundamental na construção de significado e simbolismo na série, transmitindo 
                         emoções, evolução dos personagens e refletindo a dualidade moral presente na história.
                         <br><br>
-                        Amarelo: <br>
+                        <strong> Amarelo:</strong> <br><br>
                         Uma das cores mais proeminentes em "Breaking Bad" é o amarelo. A cor está associada à metanfetamina, a 
                         droga central da trama, que é representada por cristais amarelos brilhantes. O amarelo também é usado para 
                         simbolizar riqueza e poder, representando o império construído por Walter White ao se tornar o notório 
                         Heisenberg. No entanto, o amarelo também reflete a corrupção e o perigo que acompanham o sucesso ilícito.
                         <br><br>
-                        Azul: <br>
+                        
+                        <strong>Azul:</strong> <br><br> 
                         Outra cor significativa em "Breaking Bad" é o azul. O azul está ligado à pureza e qualidade excepcional da 
                         metanfetamina fabricada por Walter White e Jesse Pinkman. Os cristais azuis representam a identidade única 
                         e a reputação deles no mercado das drogas. Além disso, o azul é usado para criar contraste com o amarelo, 
                         simbolizando o conflito moral entre a busca por poder e os danos causados pela ambição desenfreada.
                         <br><br>
-                        Verde: <br>
+                        <strong>Verde:</strong> <br><br>
                         O verde é uma cor recorrente que simboliza a ganância, o dinheiro e o poder. Ele está associado ao personagem 
                         de Gustavo Fring, um empresário de sucesso e líder do cartel mexicano. O verde também está presente nas notas 
                         de dinheiro e nas cenas envolvendo transações financeiras, representando a corrupção e a perda de valores 
                         morais.
                         <br><br>
-                        Branco: <br>
+                        <strong>Branco:</strong> <br><br>
                         O branco é usado para retratar a pureza inicial de Walter White, um professor de química antes de entrar no 
                         mundo do tráfico de drogas. A cor branca também é usada para representar a família e a inocência que são 
                         ameaçadas à medida que Walter se envolve cada vez mais em atividades criminosas. Além disso, o branco é um 
                         contraste simbólico com o preto, representando a dualidade do caráter de Walter e os conflitos internos que 
                         ele enfrenta.
                         <br><br>
-                        Preto: <br>
+                        <strong>Preto:</strong> <br><br>
                         O preto é uma cor que representa o mal, a escuridão e a morte. Ela está associada a personagens como Gustavo 
                         Fring e os membros do cartel, cujas ações e violência são permeadas por uma aura de escuridão. O preto também 
                         é usado para retratar momentos de decisões morais cruciais, onde os personagens enfrentam escolhas que podem 
@@ -281,7 +328,7 @@
         <h2 class="spin-offs__title section--title">Spin-offs</h2>
         <div class="spin-offs__container">
             <div class="spin-offs__itens">
-                <div class="el-camino">
+                <div class="better">
                     <img src="./src/images/section-spinoffs-better.jpeg" alt="better call saul">
                     <p class="section--descriptions">
                         Série derivada do sucesso Breaking Bad, é ambientada seis anos antes de Saul Goodman 
@@ -317,7 +364,7 @@
         </div>
     </footer>
 
-    <script src="./src/scripts/main.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous">
